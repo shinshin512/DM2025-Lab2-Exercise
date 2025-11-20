@@ -1,0 +1,23 @@
+# LECTURE ANALYSIS: LLMs Can Get "Brain Rot" (Contd.)
+## Video Segment: 110:58 - 114:58
+
+[SLIDE DESCRIPTION]
+The slide discusses "Brain Rot" in LLMs, continuing from the previous section. It presents a graph showing the performance of different LLM models (ARC-C, CoT, Ruler, AdvBench) on IT and Control datasets, with and without fine-tuning on clean data. The graph indicates that fine-tuning with clean data can sometimes lead to a decrease in performance, suggesting a phenomenon akin to "brain rot" where the model's capabilities degrade after certain training processes.
+
+[TRANSCRIPT - 110:58]
+And the solid line actually is being after fine-tuned. So you can actually see the like a blue one, the higher the better. So even after you utilize clean data to fine tune it, it just brand rot. Now, the bad one is just bad. It's hard to recover. Okay. So we don't have the time to go through this one. I hope you guys can do that later on by yourself, okay? Because next one, I need to go to the text mining overview. So first good. Let me see.
+
+[TRANSCRIPT - 111:44]
+Is reinforcement learning a kind of fine tuning? Yes, it's right. What does it mean if my lab get a T? I don't know what the lab get a T means. We haven't announced any grade yet. So I don't know what it is. Maybe it's being being judged. I guess. But when can we expect our grade results for lab T? And our TA tried very, very hard to grade them. You know, our TA really read line by line and came in the thing to make sure everything is right. And with many, many people and they are working very hard, hoping that they can keep the result back to you soon.
+
+[SLIDE DESCRIPTION]
+The slide is titled "Data (Text vs. Non-Text)". It illustrates a conceptual model where the 'World' is interpreted by a 'Sensor' to produce 'Data'. Examples include: Weather (Thermometer, Hygrometer) producing Data (e.g., 24 C, 55%), Location (GPS) producing Data (e.g., 37 N, 123 E), and Body (Sphygmometer, MRI, etc.) producing Data (e.g., 126/70 mmHg). The slide contrasts this with 'Subjective' data, which involves human interpretation and can be 'Text' or 'To be or not to be...'. It highlights that text data often involves subjective insight and offers flexibility.
+
+[TRANSCRIPT - 111:41]
+Okay, so the next one, we want to talking about this thing because of the time and I want to go through them very quickly. This is the data mining courses, okay? All the NLP thing we want to talking about is because you can consider they can become a pre-processing or they can do something later. Because you can utilize the burn embedding or actually transformer can give you some embedding back to you. And then but when we try to thinking about text and non-text. Most of time when people thinking about data mining, our data are more like this way. They are not text most of time. And then why? Because they are objective. Text actually involves a lot of subjective insight. Even after we introduce LLM, then how to explain it, how to interpret them, still have a lot of flexibility right here. And then right here, we want you to know that in the actual originally when people thinking about text mining, they are thinking about we have the non-text data, we do all the data mining technique. And if we have the text data, we can do some pre-processing, like right here, send them to transformer and make them work. Okay? And in the remaining like 30 minutes, we want to show you, then we find out some people, they actually try more than that. So in other words, they are not directly utilize the original data mining technique. They utilize some other technique to do the thing they like.
+
+[SLIDE DESCRIPTION]
+The slide is titled "NLP vs. Text Mining". It contrasts the objectives of Traditional NLP and Text Mining. Traditional NLP objectives include: Understanding, Ability to answer, and In perfect condition. Text Mining objectives include: Overview, Know the trends, and Accept noise. The slide visually depicts that non-text data can be used for Data Mining (Clustering, Association Rules), while text data, after Text Processing (including NLP), can also feed into Data Mining. It suggests that text mining goes beyond just applying traditional NLP techniques to data mining.
+
+[TRANSCRIPT - 114:28]
+So we will demonstrate one thing to you. Okay, but even though you try NLP up the technique, and in the traditional NLP objective, try to understand what is the statement and will be able to answer them. But text mining is more like trend. Okay, more like trend. So we don't really need the answer, we just want to know the trend.
